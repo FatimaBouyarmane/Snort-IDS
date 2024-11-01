@@ -1,0 +1,17 @@
+#The icmp.rules file is often used to monitor ICMP traffic, such as ping requests, which may indicate network scanning or other suspicious activity.
+
+
+# 1. Detecting ICMP Ping Sweep (Network Scanning)
+alert icmp any any -> any any (msg:"ICMP Ping Sweep Detected"; itype:8; sid:2000001; rev:1;)
+
+# 2. Detecting ICMP Echo Request (Single Ping)
+alert icmp any any -> 192.168.23.129 any (msg:"ICMP Echo Request Detected"; itype:8; sid:2000002; rev:1;)
+
+# 3. Detecting ICMP Echo Reply
+alert icmp any any -> any any (msg:"ICMP Echo Reply Detected"; itype:0; sid:2000003; rev:1;)
+
+# 4. Detecting ICMP Redirect Message (Possible Attack Vector)
+alert icmp any any -> any any (msg:"ICMP Redirect Message Detected"; itype:5; sid:2000004; rev:1;)
+
+# 5. Detecting ICMP Unreachable Message (Potential Routing Issue or Host Down)
+alert icmp any any -> any any (msg:"ICMP Unreachable Message Detected"; itype:3; sid:2000005; rev:1;)

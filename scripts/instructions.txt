@@ -1,0 +1,17 @@
+Below is a sample simulation_attack.sh script to simulate some basic network attacks, 
+such as TCP SYN flood and ICMP ping flood attacks, 
+which you can use to test your Snort setup.
+
+This script uses hping3 for TCP SYN flood and ping for an ICMP flood attack. 
+Make sure you have the necessary permissions to run these commands, 
+as they may require root privileges.
+
+1. To run the script: make sure the script has Executable permissions.
+    chmod +x simulation_attack.sh
+
+2. Run the Script as Root: Since the script performs network-level attacks, it will typically require root privileges.
+sudo ./simulation_attack.sh
+
+3. Choose Attack Option: Follow the on-screen prompts to choose the attack type you want to simulate.
+
+

@@ -1,0 +1,5 @@
+[**] [1:1000023:1] ICMP DoS Attack Detected [**]
+[Classification: Attempted Denial of Service] [Priority: 1] 
+11/01-15:24:10.654321  [**] ICMP 192.168.23.130 -> 192.168.23.129
+Type: 8  Code: 0
+[**] TTL: 128 TOS: 0x0 ID: 54321 IpLen: 20 DgmLen: 56

@@ -1,0 +1,14 @@
+[**] [1:1000010:1] Potential TCP SYN Flood Attack [**]
+[Classification: Attempted Denial of Service] [Priority: 1] 
+11/01-15:23:45.123456  [**] TCP 192.168.23.130:12345 -> 192.168.23.129:80
+Flags: S, Seq: 0, Ack: 0, Win: 1024
+
+[**] [1:1000023:1] ICMP DoS Attack Detected [**]
+[Classification: Attempted Denial of Service] [Priority: 1] 
+11/01-15:24:10.654321  [**] ICMP 192.168.23.130 -> 192.168.23.129
+Type: 8  Code: 0
+
+[**] [1:1000021:1] ICMP Echo Request Detected [**]
+[Classification: Misc activity] [Priority: 3]
+11/01-15:24:25.987654  [**] ICMP 192.168.23.130 -> 192.168.23.129
+Type: 8  Code: 0

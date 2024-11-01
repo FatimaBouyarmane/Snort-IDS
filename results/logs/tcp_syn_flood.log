@@ -1,0 +1,5 @@
+[**] [1:1000010:1] Potential TCP SYN Flood Attack [**]
+[Classification: Attempted Denial of Service] [Priority: 1] 
+11/01-15:23:45.123456  [**] TCP 192.168.23.130:12345 -> 192.168.23.129:80
+Flags: S, Seq: 0, Ack: 0, Win: 1024
+[**] TTL: 64 TOS: 0x0 ID: 12345 IpLen: 20 DgmLen: 60 DF

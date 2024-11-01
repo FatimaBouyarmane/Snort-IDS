@@ -1,0 +1,15 @@
+[
+    {
+      "timestamp": "11/01-15:23:45.123456",
+      "rule_id": 1000010,
+      "classification": "Attempted Denial of Service",
+      "priority": 1,
+      "protocol": "TCP",
+      "src_ip": "192.168.23.130",
+      "src_port": 12345,
+      "dest_ip": "192.168.23.129",
+      "dest_port": 80,
+      "flags": "S"
+    }
+  ]
+  
